@@ -1,0 +1,17 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = "Yuya's Portfolio"
+theme = 'gokarna'
+enableRobotsTXT = true
+enableEmoji = true
+
+[params]
+avatarURL = "https://avatars.githubusercontent.com/u/29038315"
+socialIcons = [
+  { name = "github", url = "https://github.com/ponkio-o" },
+  { name = "x", url = "https://twitter.com/ponkio_o" },
+  { name = "bluesky", url = "https://bsky.app/profile/koday.me" },
+  { name = "linkedin", url = "https://www.linkedin.com/in/yuya-koda/" },
+  { name = "facebook", url = "https://www.facebook.com/y.koda0301/" },
+  { name = "speakerdeck", url = "https://speakerdeck.com/ponkio_o" },
+]
