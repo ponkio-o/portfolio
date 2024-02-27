@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yuya&#39;s Portfolio</title>
-    <link>http://localhost:1313/</link>
+    <link>https://koday.me/</link>
     <description>Recent content on Yuya&#39;s Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://koday.me/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/index-about/</link>
+      <link>https://koday.me/index-about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/index-about/</guid>
+      <guid>https://koday.me/index-about/</guid>
       <description>Hi &amp;#x1f44b; I am Yuya Koda, a Software Engineer currently employed at DeNA.&#xA;My professional focus encompasses expertise in infrastructure, with a primary emphasis on AWS. I specialize in areas such as DevOps, Infrastructure as Code (IaC), Continuous Integration/Continuous Deployment (CI/CD), and automated testing.&#xA;Career DeNA Co., Ltd. (Sep 2023 - Present) Retty Inc. (Apr 2020 - Aug 2024) </description>
     </item>
   </channel>
