@@ -27,6 +27,6 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
           AWS_REGION: ${{secrets.AWS_REGION}}
 
-      - run: aws s3api list-objects-v2 --endpoint-url $ENDPOINT
+      - run: aws s3api list-objects-v2 --endpoint-url $ENDPOINT --bucket portfolio
         env:
           ENDPOINT: ${{secrets.S3_ENDPOINT}}
