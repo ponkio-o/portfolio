@@ -19,6 +19,7 @@ jobs:
       - name: Build
         run: |
           git submodule init
+          git submodule update
           hugo
 
       - name: Setup aws-cli
