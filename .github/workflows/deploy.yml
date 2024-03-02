@@ -32,4 +32,4 @@ jobs:
 
       - name: Upload to R2
         working-directory: public
-        run: aws s3 sync . --endpoint-url $ENDPOINT --bucket s3://portfolio/
+        run: aws s3 sync . s3://portfolio --endpoint-url $ENDPOINT
