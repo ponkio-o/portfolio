@@ -36,3 +36,8 @@ jobs:
       - name: Upload to R2
         working-directory: public
         run: aws s3 sync . s3://portfolio --endpoint-url $ENDPOINT
+
+      - name: Send purge request to Fastly
+        run: fastly purge --service-name portfolio --all
+        env:
+          FASTLY_API_TOKEN: ${{secrets.FASTLY_API_TOKEN}}
