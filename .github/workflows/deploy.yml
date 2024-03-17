@@ -22,7 +22,7 @@ jobs:
           git submodule update
           hugo
 
-      - name: Setup aws-cli
+      - name: Setup aws-cli for Cloudflare
         run: |
           echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID" >> $GITHUB_ENV
           echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY" >> $GITHUB_ENV
