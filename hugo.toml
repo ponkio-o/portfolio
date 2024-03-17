@@ -15,3 +15,8 @@ socialIcons = [
   { name = "facebook", url = "https://www.facebook.com/y.koda0301/" },
   { name = "speakerdeck", url = "https://speakerdeck.com/ponkio_o" },
 ]
+
+# Analytics
+customHeadHTML = '''
+    <script defer src="https://analytics.us.umami.is/script.js" data-website-id="2a98467c-39db-4414-bcf9-f9f779d98102"></script>
+  '''
