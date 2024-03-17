@@ -3,5 +3,28 @@
   "extends": [
     "config:recommended",
     "github>aquaproj/aqua-renovate-config#2.2.0"
+  ],
+  "timezone": "Asia/Tokyo",
+  "labels": ["dependencies"],
+  "dependencyDashboard": true,
+  "platformAutomerge": true,
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "aws/aws-cli",
+        "fastly/cli",
+        "aquaproj/aqua",
+        "aquaproj/aqua-registry",
+        "gohugoio/hugo"
+      ],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["github-actions"],
+      "matchPackagePatterns": ["^actions/"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "automerge": true
+    }
   ]
 }
