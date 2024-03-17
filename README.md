@@ -2,7 +2,7 @@
 
 https://koday.me
 
-## How to dvelopment
+## How to run on local environment
 
 ```console
 hugo serve
