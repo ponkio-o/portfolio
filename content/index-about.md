@@ -7,4 +7,4 @@ My professional focus encompasses expertise in infrastructure, with a primary em
 ## Career
 
 - DeNA Co., Ltd. (Sep 2023 - Present)
-- Retty Inc. (Apr 2020 - Aug 2024)
+- Retty Inc. (Apr 2020 - Aug 2023)
