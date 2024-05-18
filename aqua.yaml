@@ -11,6 +11,6 @@ registries:
   ref: v4.180.1 # renovate: depName=aquaproj/aqua-registry
 packages:
 - name: gohugoio/hugo@v0.126.1
-- name: aws/aws-cli@2.15.52
+- name: aws/aws-cli@2.15.53
 - name: fastly/cli@v10.9.0
 - name: crate-ci/typos@v1.20.10
