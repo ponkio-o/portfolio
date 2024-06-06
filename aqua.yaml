@@ -12,5 +12,5 @@ registries:
 packages:
 - name: gohugoio/hugo@v0.127.0
 - name: aws/aws-cli@2.16.2
-- name: fastly/cli@v10.10.0
+- name: fastly/cli@v10.11.0
 - name: crate-ci/typos@v1.20.10
