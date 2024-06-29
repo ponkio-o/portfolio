@@ -15,7 +15,8 @@
         "fastly/cli",
         "aquaproj/aqua",
         "aquaproj/aqua-registry",
-        "gohugoio/hugo"
+        "gohugoio/hugo",
+        "crate-ci/typos"
       ],
       "matchUpdateTypes": ["patch", "minor"],
       "automerge": true
