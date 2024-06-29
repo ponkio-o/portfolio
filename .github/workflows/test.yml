@@ -4,7 +4,7 @@ on:
   pull_request:
 
 jobs:
-  test:
+  typo:
     timeout-minutes: 10
     permissions:
       contents: read
@@ -18,11 +18,27 @@ jobs:
       - name: Check typo
         run: typos --exclude themes/*
 
+  ghalint:
+    timeout-minutes: 10
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4.1.7
+      - uses: aquaproj/aqua-installer@4551ec64e21bf0f557c2525135ff0bd2cba40ec7 # v3.0.0
+        with:
+          aqua_version: v2.27.3
+      - name: Run ghalint
+        run: ghalint run
+
   status-check:
     timeout-minutes: 1
     permissions: {}
     runs-on: ubuntu-latest
-    needs: [test]
+    needs:
+      - typo
+      - ghalint
     if: failure()
 
     steps:
