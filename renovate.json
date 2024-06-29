@@ -25,6 +25,10 @@
       "matchPackagePatterns": ["^actions/"],
       "matchUpdateTypes": ["patch", "minor"],
       "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
     }
   ]
 }
