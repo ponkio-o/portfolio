@@ -14,4 +14,4 @@ packages:
 - name: aws/aws-cli@2.22.27
 - name: fastly/cli@v10.17.1
 - name: crate-ci/typos@v1.29.4
-- name: suzuki-shunsuke/ghalint@v1.0.0
+- name: suzuki-shunsuke/ghalint@v1.2.1
