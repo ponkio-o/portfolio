@@ -13,5 +13,5 @@ packages:
 - name: gohugoio/hugo@v0.142.0
 - name: aws/aws-cli@2.23.9
 - name: fastly/cli@v10.18.0
-- name: crate-ci/typos@v1.29.4
+- name: crate-ci/typos@v1.29.5
 - name: suzuki-shunsuke/ghalint@v1.0.0
