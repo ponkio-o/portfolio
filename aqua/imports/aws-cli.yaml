@@ -1,0 +1,3 @@
+packages:
+  - name: aws/aws-cli
+    version: 2.22.35
