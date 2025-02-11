@@ -6,9 +6,7 @@
     "github>aquaproj/aqua-renovate-config:file#2.3.1(aqua/.*\\.ya?ml)"
   ],
   "timezone": "Asia/Tokyo",
-  "labels": [
-    "dependencies"
-  ],
+  "labels": ["dependencies"],
   "dependencyDashboard": true,
   "platformAutomerge": true,
   "packageRules": [
@@ -24,29 +22,17 @@
         "crate-ci/typos",
         "suzuki-shunsuke/ghalint"
       ],
-      "matchUpdateTypes": [
-        "patch",
-        "minor"
-      ],
+      "matchUpdateTypes": ["patch", "minor"],
       "automerge": true
     },
     {
-      "matchManagers": [
-        "github-actions"
-      ],
-      "matchUpdateTypes": [
-        "patch",
-        "minor"
-      ],
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": ["patch", "minor"],
       "automerge": true,
-      "matchPackageNames": [
-        "/^actions//"
-      ]
+      "matchPackageNames": ["/^actions//"]
     },
     {
-      "matchUpdateTypes": [
-        "patch"
-      ],
+      "matchUpdateTypes": ["patch"],
       "automerge": true
     }
   ]
