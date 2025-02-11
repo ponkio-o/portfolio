@@ -32,7 +32,9 @@ jobs:
         with:
           aqua_version: v2.43.2
       - name: Run ghalint
-        run: ghalint run
+        run: github-comment exec -- ghalint run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   status-check:
     timeout-minutes: 1
