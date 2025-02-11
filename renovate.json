@@ -2,7 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
-    "github>aquaproj/aqua-renovate-config#2.3.1"
+    "github>aquaproj/aqua-renovate-config#2.3.1",
+    "github>aquaproj/aqua-renovate-config:file#2.3.1(aqua/.*\\.ya?ml)"
   ],
   "timezone": "Asia/Tokyo",
   "labels": ["dependencies"],
@@ -15,8 +16,11 @@
         "fastly/cli",
         "aquaproj/aqua",
         "aquaproj/aqua-registry",
+        "aquaproj/aqua-installer",
+        "aquaproj/aqua-renovate-config",
         "gohugoio/hugo",
-        "crate-ci/typos"
+        "crate-ci/typos",
+        "suzuki-shunsuke/ghalint"
       ],
       "matchUpdateTypes": ["patch", "minor"],
       "automerge": true
