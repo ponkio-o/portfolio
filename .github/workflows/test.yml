@@ -44,5 +44,4 @@ jobs:
     if: failure()
 
     steps:
-      - name: Fail
-        run: exit 1
+      - run: exit 1
