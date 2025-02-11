@@ -18,5 +18,5 @@ socialIcons = [
 
 # Analytics
 customHeadHTML = '''
-    <script defer src="https://analytics.us.umami.is/script.js" data-website-id="2a98467c-39db-4414-bcf9-f9f779d98102"></script>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="2a98467c-39db-4414-bcf9-f9f779d98102"></script>
   '''
