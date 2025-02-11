@@ -16,7 +16,9 @@ jobs:
         with:
           aqua_version: v2.43.2
       - name: Check typo
-        run: typos --exclude themes/*
+        run: github-comment exec -- typos --exclude themes/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   ghalint:
     timeout-minutes: 10
