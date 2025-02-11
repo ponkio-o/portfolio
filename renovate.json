@@ -16,8 +16,11 @@
         "fastly/cli",
         "aquaproj/aqua",
         "aquaproj/aqua-registry",
+        "aquaproj/aqua-installer",
+        "aquaproj/aqua-renovate-config",
         "gohugoio/hugo",
-        "crate-ci/typos"
+        "crate-ci/typos",
+        "suzuki-shunsuke/ghalint"
       ],
       "matchUpdateTypes": ["patch", "minor"],
       "automerge": true
