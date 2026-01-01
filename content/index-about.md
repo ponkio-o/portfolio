@@ -6,6 +6,6 @@ My professional focus encompasses expertise in infrastructure, with a primary em
 
 ## Work History
 
-- Abema, Inc. (Apr. 2025 - Present)
+- AbemaTV, Inc. (Apr. 2025 - Present)
 - DeNA Co., Ltd. (Sep. 2023 - Mar. 2025)
 - Retty Inc. (Apr. 2020 - Aug. 2023)
