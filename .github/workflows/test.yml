@@ -16,7 +16,7 @@ jobs:
           persist-credentials: false
       - uses: aquaproj/aqua-installer@5e54e5cee8a95ee2ce7c04cb993da6dfad13e59c # v3.1.2
         with:
-          aqua_version: v2.47.1
+          aqua_version: v2.56.7
       - name: Check typo
         run: github-comment exec -- typos --exclude themes/*
         env:
@@ -34,7 +34,7 @@ jobs:
           persist-credentials: false
       - uses: aquaproj/aqua-installer@5e54e5cee8a95ee2ce7c04cb993da6dfad13e59c # v3.1.2
         with:
-          aqua_version: v2.47.1
+          aqua_version: v2.56.7
       - name: Run ghalint
         run: github-comment exec -- ghalint run
         env:
